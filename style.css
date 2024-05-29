@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contener {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+.ona {
+  display: flex;
+  justify-content: space-between;
+  padding: 46px 0;
+}
+.ona-chap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.ona-chap a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f153446;
+}
+.ona-chap a:hover {
+  color: #1f1534;
+}
+.ota {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ota-ong p {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 19px;
+  color: #7d7987;
+}
+.ota-ong h2 {
+  font-size: 45px;
+  color: #000000;
+}
+.ota-ong button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: #458ff6;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.ota-ong button:hover {
+  background-color: #2f4f7c;
+}
+.q {
+  text-align: center;
+  font-size: 35px;
+  color: #000000;
+  margin-top: 70px;
+}
+.w {
+  color: #7d7987;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 70px;
+}
+.doda {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  gap: 50px;
+}
+.doda1 {
+  background-color: #e7e7e7;
+  width: 380px;
+  height: 380px;
+  padding: 50px;
+  border-radius: 20px;
+}
+.doda2 {
+  background-color: #e7e7e7;
+  width: 380px;
+  padding: 50px;
+  border-radius: 20px;
+}
+.doda3 {
+  background-color: #e7e7e7;
+  width: 380px;
+  padding: 50px;
+  border-radius: 20px;
+}
+.doda1 h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.doda2 h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.doda3 h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.doda p {
+  font-size: 16px;
+}
+
+.doda1:hover {
+  background-color: #5a98f2;
+  color: white;
+  cursor: pointer;
+}
+.doda2:hover {
+  background-color: #5a98f2;
+  color: white;
+  cursor: pointer;
+}
+.doda3:hover {
+  background-color: #5a98f2;
+  color: white;
+  cursor: pointer;
+}
+.buvi {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  gap: 50px;
+}
+.buvi1 {
+  background-color: #e7e7e7;
+  width: 380px;
+  height: 380px;
+  padding: 50px;
+  border-radius: 20px;
+}
+.buvi2 {
+  background-color: #e7e7e7;
+  width: 380px;
+  padding: 50px;
+  border-radius: 20px;
+}
+.buvi3 {
+  background-color: #e7e7e7;
+  width: 380px;
+  padding: 50px;
+  border-radius: 20px;
+}
+.buvi1 h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.buvi2 h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.buvi3 h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.buvi p {
+  font-size: 16px;
+}
+
+.buvi1:hover {
+  background-color: #5a98f2;
+  color: white;
+  cursor: pointer;
+}
+.buvi2:hover {
+  background-color: #5a98f2;
+  color: white;
+  cursor: pointer;
+}
+.buvi3:hover {
+  background-color: #5a98f2;
+  color: white;
+  cursor: pointer;
+}
+.z {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+  gap: 50px;
+  background-color: white;
+  border: 1px solid #5a98f2;
+  color: #5a98f2;
+  width: 200px;
+  height: 57px;
+  border-radius: 55px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.x {
+  display: flex;
+  justify-content: center;
+}
+.z:hover {
+  background-color: #5a98f2;
+  color: white;
+}
+.c {
+  text-align: center;
+  margin-top: 75px;
+  font-size: 48px;
+  color: #000000;
+}
+.amma {
+  display: flex;
+  justify-content: start;
+  gap: 150px;
+  margin-top: 80px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+.amma-chap h3 {
+  font-size: 36px;
+}
+.amma-chap p {
+  font-size: 18px;
+  color: #7d7987;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.v {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 100px;
+}
+.xola {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  height: 516px;
+}
+.xola1 {
+  background-color: rgba(160, 157, 157, 0.118);
+}
+.xola2 {
+  background-color: rgba(160, 157, 157, 0.118);
+}
+.xola3 {
+  background-color: rgba(160, 157, 157, 0.118);
+}
+.xola1 h3 {
+  font-size: 21px;
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.xola1 p {
+  font-size: 16px;
+  color: #7d7987;
+  margin-left: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.xola1 a {
+  text-decoration: none;
+  margin-left: 30px;
+  margin: 30px;
+}
+.xola1 h3 {
+  font-size: 21px;
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.xola1 p {
+  font-size: 16px;
+  color: #7d7987;
+  margin-left: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.xola1 a {
+  text-decoration: none;
+  margin-left: 30px;
+  margin: 30px;
+}
+.xola2 h3 {
+  font-size: 21px;
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.xola2 p {
+  font-size: 16px;
+  color: #7d7987;
+  margin-left: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.xola2 a {
+  text-decoration: none;
+  margin-left: 30px;
+  margin: 30px;
+}
+.xola3 h3 {
+  font-size: 21px;
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.xola3 p {
+  font-size: 16px;
+  color: #7d7987;
+  margin-left: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.xola3 a {
+  text-decoration: none;
+  margin-left: 30px;
+  margin: 30px;
+}
+.aziz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  background-color: #67c3f3;
+  margin-top: 200px;
+  width: 100%;
+  height: 432px;
+}
+.aziz1 {
+  color: white;
+}
+.aziz1 p {
+  padding-top: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.aziz2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.aziz3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.aziz4 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.aziz2 h4 {
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #ffffffc4;
+  cursor: pointer;
+}
+.aziz3 h4 {
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #ffffffc4;
+  cursor: pointer;
+}
+.aziz4 h4 {
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #ffffffc4;
+  cursor: pointer;
+}
+.aziz2 a:hover{
+  background-color: #7d7987;
+  color: #000000;
+}
+.aziz3 a:hover{
+  background-color: #7d7987;
+  color: #000000;
+}
+.aziz4 a:hover{
+  background-color: #7d7987;
+  color: #000000;
+}
+.aziz2 h4:hover{
+  background-color: #1f1534;
+  color: #7d7987;
+}.aziz3 h4:hover{
+  background-color: #1f1534;
+  color: #7d7987;
+}.aziz4 h4:hover{
+  background-color: #1f1534;
+  color: #7d7987;
+}
+
